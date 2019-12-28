@@ -98,13 +98,19 @@ export default {
           routes: [
             {
               path: '/',
-              redirect: '/welcome',
+              redirect: '/jd',
             },
             {
               path: '/welcome',
               name: 'welcome',
               icon: 'smile',
               component: './Welcome',
+            },
+            {
+              path: '/jd',
+              name: '京东水果',
+              icon: 'smile',
+              component: './jd',
             },
             {
               path: '/admin',
